@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: Arial, sans-serif;
+  background-color: #fafffd; /* Color de fondo principal */
+  color: #333; /* Color de texto principal */
+  
+}
+
+footer {/* Color de fondo del pie de página */
+
+  text-align: center;
+  color: #83e9be;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #eefff8; /* Color de fondo de la barra de navegación */
+
+  padding: 10px;
+  border-radius: 10px; /* Radio de las esquinas */
+}
+
+nav a {
+  color: #056827; /* Color de enlaces en la barra de navegación */
+  margin: 0 10px;
 }
